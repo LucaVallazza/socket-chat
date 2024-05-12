@@ -1,0 +1,90 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+*{
+    background-color: #0a0a0a;
+    color: #d6d3d1;
+
+}
+
+.message-container{
+    min-height: 10rem;
+}
+
+.message-container{
+    display: flex;
+    flex-direction: column;
+
+    justify-content: start;
+    align-items: start;
+    
+}
+
+.message-container div{
+    width: 40%;
+    padding: 0.5rem 1rem;
+}
+
+.message-container div.message{
+
+    background-color: rgb(88, 88, 96);
+    color: #DDD;
+    border-radius: 1em .8em 1em 0 ;
+    
+}
+
+.message-container div.user{
+    align-self: flex-end;
+    background-color: rgb(54, 54, 61);
+    border-radius: .8em 1em 0 1em ;
+}
+
+.message-container div.info{
+    border-radius: .2em .2em .2em .2em ;
+    width: 70%;
+    align-self: center;
+    background-color: #559;
+    color: rgb(186, 186, 193);
+    font-style: italic;
+}
+
+.message-container div.room{
+    border-radius: .2em .2em .2em .2em ;
+    width: 70%;
+    align-self: center;
+    background-color: #77B;
+    color: rgb(210, 210, 211);
+    font-style: italic;
+}
+
+
+
+.room-header{
+    font-size: large;
+    margin-bottom: .5rem;
+}
+
+
+.room-name-text{
+    font-weight: bold;
+}
+
+.btn{
+    padding: .1em .2em;
+    font-size: .86rem;
+
+    border-color: #a8a29e;
+
+    background-color: #292524;
+
+}
+
+.btn:hover{
+    background-color: #44403c;
+}
+
+.hidden{
+    display: none;
+}

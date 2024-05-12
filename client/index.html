@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="dist/output.css">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+
+<body class="">
+    <div class="p-5">
+        <h2 id = "room-header" class="room-header">
+            <span class="room-name-text">Sala: </span>
+            <span id="room-name">General</span>
+            <button id="general-room-btn" class="border btn hidden">Back to general</button>
+        </h2>
+        <div id="message-container" class="message-container flex items-center justify-around w-full border-stone-500 space-y-2 border p-2 ">
+        </div>
+    
+        <form id="form" class="flex flex-col justify-center align-items-center ">
+            <div class="w-full grid grid-cols-7 mt-5 gap-2">
+                <label for="message-input" class="col-span-1"> Message</label>
+                <input type="text" id="message-input" class="w-full border p-1 col-span-5" />
+                <button type="submit" id="send-button" class="border p-2 btn  col-span-1">Send</button>
+                
+    
+            </div>
+            <div class="w-full grid grid-cols-7 mt-5 gap-2">
+                <label for="room-input"  class="p-0 col-span-1">Room</label>
+                <input type="text" id="room-input" class="w-full border p-1 col-span-5">
+                <button type="button" id="room-button" class="border p-2 btn  col-span-1">Join</button>
+    
+            </div>
+    
+    
+        </form>
+
+    </div>
+    
+
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
