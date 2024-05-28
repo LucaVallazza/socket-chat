@@ -6,16 +6,15 @@ Socket Chat is a simple full-stack chat app developed using JavaScript that allo
 
 ### ✨ App features
 
-- 💬 **Real-time Chat**: Chat instantly with other users online.
-- 👥 **Rooms**: Join different rooms for private conversations.
-
+- 💬 **Real-time Chat**: Chat with other users online in real time.
+- 👥 **Rooms**: Join different rooms to discuss various topics or have private conversations.
 
 
 
 ### 💡 What I've learned
-* 💻 **Front-End**: I used HTML, CSS, JavaScript and Tailwind CSS to crete a dynamic and interactive page facilitating data exchange with the Server and presentation on the screen.
-* 🎛️ **Back-End:** I utilized ExpressJS and Socket.io to create the server-side app, handling the socket connections and allowing the exchange of information.
+* 💻 **UI Design**: I used HTML, CSS, JavaScript and Tailwind CSS to crete a dynamic and interactive page facilitating data exchange with the Server and presentation on the screen.
+* 📡 **Sockets**: I used ExpressJS with Socket.IO to create the server-side app, handling the socket connections and allowing the exchange of information in realtime.
 
 
 ## 📷 Screenshots
-![App Screnshot](https://i.ibb.co/7ppWZc4/screenshot1.jpg)
+![App Screnshot](https://i.pinimg.com/736x/df/f9/8d/dff98d086073c41579944fdbb835b854.jpg)
